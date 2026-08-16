@@ -1,0 +1,10 @@
+backend/.env
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Lambda build artifacts
+build/
+lambda_package.zip

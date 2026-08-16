@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><style>
+  text{font-family:'Inter','Helvetica Neue',Arial,sans-serif;fill:#0f172a}
+  .h1{font-size:40px;font-weight:800;letter-spacing:-.6px}
+  .h1s{font-size:34px;font-weight:400;fill:#64748b;letter-spacing:-.3px}
+  .h2{font-size:18px;fill:#64748b}
+  .lg{font-size:15px;fill:#64748b;font-weight:700}
+  .bt{font-size:19px;font-weight:800;fill:#fff;letter-spacing:.5px}
+  .ic{font-size:19px}
+  .l{font-size:17.5px}
+  .la{font-size:17.5px;fill:#0d9488;font-weight:700}
+  .ls{font-size:15.5px;fill:#64748b}
+  .al{font-size:16px;font-weight:800;fill:#334155;letter-spacing:.4px}
+  .jic{font-size:26px}
+  .js{font-size:16.5px;fill:#e2e8f0;font-weight:600}
+  .bw{font-size:13px;font-weight:800;fill:#64748b;letter-spacing:1.1px}
+  .bwt{font-size:23px;font-weight:800;fill:#7c3aed;letter-spacing:-.2px}
+  .bwl{font-size:16.5px;font-weight:700;fill:#0f172a}
+  .bwd{font-size:15px;fill:#64748b}
+  .jar{font-size:34px;fill:#475569;font-weight:700}
+</style><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<rect width="1920" height="1080" fill="#ffffff"/>
+<circle cx="62" cy="58" r="22" fill="#0d9488"/>
+<path d="M53,64 C58,50 68,47 72,49 C71,60 62,66 53,64 Z" fill="#ccfbf1"/>
+<text x="98" y="52" class="h1">DeSpiral</text>
+<text x="306" y="52" class="h1s">— how it works</text>
+<text x="98" y="78" class="h2">Interrupts the health-anxiety spiral at the moment it starts — and remembers, so it can be gentler next time</text>
+<rect x="1180" y="42" width="15" height="15" rx="4" fill="#4f46e5"/>
+<text x="1203" y="55" class="lg">Chrome Extension</text>
+<rect x="1430" y="42" width="15" height="15" rx="4" fill="#d97706"/>
+<text x="1453" y="55" class="lg">AWS Serverless + Bedrock</text>
+<rect x="1680" y="42" width="15" height="15" rx="4" fill="#7c3aed"/>
+<text x="1703" y="55" class="lg">CockroachDB Cloud</text>
+<rect x="50" y="128" width="566" height="196" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<rect x="50" y="128" width="566" height="38" rx="14" fill="#4f46e5"/>
+<rect x="50" y="150" width="566" height="16" fill="#4f46e5"/>
+<text x="70" y="155" class="ic">🔎</text>
+<text x="100" y="154" class="bt">CATCHES THE SEARCH</text>
+<text x="70" y="194" class="l">Watches what you type on Google,</text>
+<text x="70" y="220" class="l">ChatGPT and Gemini</text>
+<text x="70" y="246" class="la">Four filters, cheapest first — most</text>
+<text x="70" y="272" class="la">searches never leave your device</text>
+<text x="70" y="298" class="l">Acute emergencies skip everything</text>
+<rect x="50" y="380" width="566" height="196" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<rect x="50" y="380" width="566" height="38" rx="14" fill="#4f46e5"/>
+<rect x="50" y="402" width="566" height="16" fill="#4f46e5"/>
+<text x="70" y="407" class="ic">🧘</text>
+<text x="100" y="406" class="bt">PAUSES BEFORE YOU READ</text>
+<text x="70" y="446" class="l">A 20-second grounding exercise</text>
+<text x="70" y="472" class="l">covers the page</text>
+<text x="70" y="498" class="la">The reply streams in behind it, so</text>
+<text x="70" y="524" class="la">it is ready the moment the timer ends</text>
+<text x="70" y="550" class="l">Always skippable, never for emergencies</text>
+<rect x="50" y="632" width="566" height="144" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<rect x="50" y="632" width="566" height="38" rx="14" fill="#4f46e5"/>
+<rect x="50" y="654" width="566" height="16" fill="#4f46e5"/>
+<text x="70" y="659" class="ic">👆</text>
+<text x="100" y="658" class="bt">OPENS WHENEVER YOU WANT</text>
+<text x="70" y="698" class="l">A toolbar button or keyboard shortcut</text>
+<text x="70" y="724" class="l">Review your patterns, read a lab report,</text>
+<text x="70" y="750" class="l">or simply talk — no trigger required</text>
+<rect x="676" y="128" width="566" height="170" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<rect x="676" y="128" width="566" height="38" rx="14" fill="#d97706"/>
+<rect x="676" y="150" width="566" height="16" fill="#d97706"/>
+<text x="696" y="155" class="ic">⚡</text>
+<text x="726" y="154" class="bt">SERVERLESS BACKEND</text>
+<text x="696" y="194" class="l">AWS Lambda, scaled to zero between uses</text>
+<text x="696" y="220" class="la">Replies stream token by token, so the</text>
+<text x="696" y="246" class="la">first words arrive while the rest writes</text>
+<text x="696" y="272" class="l">Usage is capped before any model call</text>
+<rect x="676" y="354" width="566" height="222" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<rect x="676" y="354" width="566" height="38" rx="14" fill="#d97706"/>
+<rect x="676" y="376" width="566" height="16" fill="#d97706"/>
+<text x="696" y="381" class="ic">🧠</text>
+<text x="726" y="380" class="bt">AMAZON BEDROCK</text>
+<text x="696" y="420" class="l">Claude Sonnet 4.5</text>
+<text x="696" y="446" class="ls">the companion's replies, and reading lab reports</text>
+<text x="696" y="472" class="l">Claude Haiku 4.5</text>
+<text x="696" y="498" class="ls">a fast check: is this really about your health?</text>
+<text x="696" y="524" class="l">Titan Text Embeddings v2</text>
+<text x="696" y="550" class="ls">turns each worry into a 1024-dimension vector</text>
+<rect x="676" y="632" width="566" height="196" rx="14" fill="#f0fdfa" stroke="#0d9488" stroke-width="2"/>
+<rect x="676" y="632" width="566" height="38" rx="14" fill="#0d9488"/>
+<rect x="676" y="654" width="566" height="16" fill="#0d9488"/>
+<text x="696" y="659" class="ic">🛡</text>
+<text x="726" y="658" class="bt">SAFETY, BY DESIGN</text>
+<text x="696" y="698" class="la">Never diagnoses — explains concepts,</text>
+<text x="696" y="724" class="la">never evaluates your symptoms</text>
+<text x="696" y="750" class="l">Never refuses outright: blank refusal</text>
+<text x="696" y="776" class="l">sends people back to uncontrolled searching</text>
+<text x="696" y="802" class="l">Lab reports are read in memory and never stored</text>
+<rect x="1302" y="128" width="566" height="170" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="1302" y="128" width="566" height="38" rx="14" fill="#7c3aed"/>
+<rect x="1302" y="150" width="566" height="16" fill="#7c3aed"/>
+<text x="1322" y="155" class="ic">🗄</text>
+<text x="1352" y="154" class="bt">HYBRID AGENTIC MEMORY</text>
+<text x="1322" y="194" class="l">Episodic — what was said, and when</text>
+<text x="1322" y="220" class="la">Semantic — every worry stored as a vector</text>
+<text x="1322" y="246" class="la">and searched by meaning, not keywords</text>
+<text x="1322" y="272" class="l">Each turn labelled with a theme and a feeling</text>
+<rect x="1302" y="354" width="566" height="170" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="1302" y="354" width="566" height="38" rx="14" fill="#7c3aed"/>
+<rect x="1302" y="376" width="566" height="16" fill="#7c3aed"/>
+<text x="1322" y="381" class="ic">🔗</text>
+<text x="1352" y="380" class="bt">DISTRIBUTED VECTOR INDEXING</text>
+<text x="1322" y="420" class="l">CockroachDB's native vector type and index</text>
+<text x="1322" y="446" class="la">Finds what a new search reminds you of,</text>
+<text x="1322" y="472" class="la">even when the words are completely different</text>
+<text x="1322" y="498" class="l">One database for both kinds of memory</text>
+<rect x="1302" y="580" width="566" height="170" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="1302" y="580" width="566" height="38" rx="14" fill="#7c3aed"/>
+<rect x="1302" y="602" width="566" height="16" fill="#7c3aed"/>
+<text x="1322" y="607" class="ic">📊</text>
+<text x="1352" y="606" class="bt">WHAT THAT MAKES POSSIBLE</text>
+<text x="1322" y="646" class="la">“You looked into this a few weeks ago too”</text>
+<text x="1322" y="672" class="l">Patterns &amp; Insights: recurring themes, the</text>
+<text x="1322" y="698" class="l">hours anxiety strikes, and a calm streak</text>
+<text x="1322" y="724" class="l">Memory follows you across tabs and sessions</text>
+<path d="M622,188 L670,188" fill="none" stroke="#d97706" stroke-width="3" marker-end="url(#ah)"/>
+<text x="646.0" y="174" class="al" text-anchor="middle">search</text>
+<path d="M1248,188 L1296,188" fill="none" stroke="#7c3aed" stroke-width="3" marker-end="url(#ah)"/>
+<text x="1272.0" y="174" class="al" text-anchor="middle">remember</text>
+<path d="M1296,256 L1248,256" fill="none" stroke="#7c3aed" stroke-width="3" marker-end="url(#ah)" stroke-dasharray="7 5"/>
+<text x="1272.0" y="278" class="al" text-anchor="middle" fill="#7c3aed">recall</text>
+<path d="M670,256 L622,256" fill="none" stroke="#d97706" stroke-width="3" marker-end="url(#ah)" stroke-dasharray="7 5"/>
+<text x="646.0" y="278" class="al" text-anchor="middle" fill="#d97706">stream</text>
+<rect x="50" y="850" width="1820" height="86" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="74" y="880" class="bw">BUILT WITH  ·  not part of the running request path</text>
+<text x="74" y="912" class="bwt">CockroachDB Cloud MCP</text>
+<line x1="444" y1="868" x2="444" y2="918" stroke="#d8b4fe" stroke-width="2"/>
+<circle cx="480" cy="886" r="4" fill="#7c3aed"/>
+<text x="496" y="891" class="bwl">Provisioned the schema</text>
+<text x="496" y="914" class="bwd">tables and the distributed vector index</text>
+<circle cx="948" cy="886" r="4" fill="#7c3aed"/>
+<text x="964" y="891" class="bwl">Explored it while building</text>
+<text x="964" y="914" class="bwd">read-only queries, straight from Claude Code</text>
+<circle cx="1416" cy="886" r="4" fill="#7c3aed"/>
+<text x="1432" y="891" class="bwl">Verified the analytics</text>
+<text x="1432" y="914" class="bwd">Insights panel checked against live rows</text>
+<rect x="50" y="956" width="1820" height="94" rx="14" fill="#0f172a"/>
+<text x="232.0" y="996" class="jic" text-anchor="middle">🔎</text>
+<text x="232.0" y="1028" class="js" text-anchor="middle">You search something frightening</text>
+<text x="414.0" y="1002" class="jar" text-anchor="middle">›</text>
+<text x="596.0" y="996" class="jic" text-anchor="middle">🛑</text>
+<text x="596.0" y="1028" class="js" text-anchor="middle">Caught before the results load</text>
+<text x="778.0" y="1002" class="jar" text-anchor="middle">›</text>
+<text x="960.0" y="996" class="jic" text-anchor="middle">🧘</text>
+<text x="960.0" y="1028" class="js" text-anchor="middle">20 seconds of grounding</text>
+<text x="1142.0" y="1002" class="jar" text-anchor="middle">›</text>
+<text x="1324.0" y="996" class="jic" text-anchor="middle">💬</text>
+<text x="1324.0" y="1028" class="js" text-anchor="middle">A calm, non-diagnostic reply</text>
+<text x="1506.0" y="1002" class="jar" text-anchor="middle">›</text>
+<text x="1688.0" y="996" class="jic" text-anchor="middle">📊</text>
+<text x="1688.0" y="1028" class="js" text-anchor="middle">Remembered, and shown as patterns</text>
+</svg>

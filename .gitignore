@@ -1,0 +1,86 @@
+# NOTE: in .gitignore, `#` only starts a comment at the START of a line.
+# A trailing comment after a pattern becomes PART of the pattern and silently
+# disables it. Keep every comment on its own line.
+
+# ---------------------------------------------------------------------------
+# Project-private context — never publish
+# ---------------------------------------------------------------------------
+# Epics/ holds the planning docs; the versioned design record is the commit
+# messages. HANDOVER.md is internal onboarding: cost controls, open TODOs, and
+# operational detail that should not be public.
+Epics/
+CLAUDE.md
+HANDOVER.md
+.mcp.json
+
+# Claude Code local/personal settings
+.claude/settings.local.json
+
+# ---------------------------------------------------------------------------
+# Secrets — these must NEVER be committed
+# ---------------------------------------------------------------------------
+# A bare `.env` matches at any depth, so backend/.env and extension/.env are
+# both covered.
+#
+# WARNING: this protects the REPOSITORY only. A zip of extension/ built for
+# distribution will still carry any .env sitting on disk — delete it there.
+.env
+*.env
+
+# ---------------------------------------------------------------------------
+# Personal / sensitive data
+# ---------------------------------------------------------------------------
+# Lab reports used while testing the /report route.
+*.pdf
+
+# ---------------------------------------------------------------------------
+# Developer-only scripts (not part of the shipped product)
+# ---------------------------------------------------------------------------
+# seed_history.py seeds the demo persona and costs real Bedrock spend;
+# backfill_themes.py is a one-off migration helper for pre-Fix_5 rows.
+backend/seed_history.py
+backend/backfill_themes.py
+
+# ---------------------------------------------------------------------------
+# Diagrams
+# ---------------------------------------------------------------------------
+# docs/DeSpiral_Architecture.png and .svg ARE published. Nothing else in docs/
+# is: the "internal" variants carry the live Function URL and the IAM role.
+docs/*internal*
+docs/*_gen.py
+docs/README.md
+
+# ---------------------------------------------------------------------------
+# OS / editor cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Node / build artifacts
+# ---------------------------------------------------------------------------
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---------------------------------------------------------------------------
+# Serverless / AWS
+# ---------------------------------------------------------------------------
+.serverless/
+.aws-sam/
+lambda_package.zip
